@@ -28,8 +28,6 @@ phases:
       # Build vujes UI
       - echo "Building front end..."
       - cd web
-      - npm install
-      - npm run build
       - cd ..
       # - go build -o main cmd/zinc/main.go
       # Build binary and container images using goreleaser
